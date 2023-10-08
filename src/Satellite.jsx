@@ -8,7 +8,7 @@ export default class Satellite {
 
         const objLoader = new OBJLoader();
         objLoader.load(
-            '/assets/DSCOVR.obj',
+            'assets/DSCOVR.obj',
             (object) => {
                 this.mesh = object;
                 this.mesh.scale.set(0.01, 0.01, 0.01)
