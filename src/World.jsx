@@ -98,7 +98,7 @@ export default class World {
         this.theta += this.dTheta;
         this.satellite.mesh.position.x = this.r * Math.cos(this.theta);
         this.satellite.mesh.position.z = this.r * Math.sin(this.theta);
-        this.globe.mesh.rotation.y += 0.1;        
+        // this.globe.mesh.rotation.y += 0.1;        
         this.tbControls.update();
 
         // update simulation
