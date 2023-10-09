@@ -80,6 +80,7 @@ export default class World {
         // Globe 
         this.globe = new Globe(this.scene);
 
+
         // Satellite
         this.satellite = new Satellite(this.scene);
 
@@ -92,6 +93,7 @@ export default class World {
 
     animate() {
         this.stats.update();
+        this.renderer.render(this.scene, this.camera);
 
         // move satellite
         this.theta += this.dTheta;
@@ -100,13 +102,12 @@ export default class World {
         // this.globe.mesh.rotation.y += 0.1;        
         this.tbControls.update();
 
-
         // update simulation
         if (this.simulation.kP != []) {  
             // console.log(this.simulation.kP[this.currentDay])
             this.simulation.update(this.step);
         }
-        this.renderer.render(this.scene, this.camera);
+
         
         window.requestAnimationFrame(this.animate.bind(this));
     }
