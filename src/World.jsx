@@ -80,7 +80,6 @@ export default class World {
         // Globe 
         this.globe = new Globe(this.scene);
 
-
         // Satellite
         this.satellite = new Satellite(this.scene);
 

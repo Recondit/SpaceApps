@@ -11,7 +11,7 @@ export default class Satellite {
             'assets/DSCOVR.obj',
             (object) => {
                 this.mesh = object;
-                this.mesh.scale.set(0.005, 0.005, 0.005)
+                this.mesh.scale.set(0.01, 0.01, 0.01)
                 this.mesh.position.set(80, 80, 80);
                 let material = new THREE.MeshLambertMaterial({color: 0x777777});
                 this.mesh.traverse(function(child) {
