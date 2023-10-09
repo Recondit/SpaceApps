@@ -160,6 +160,7 @@ export default class Globe {
 		// }));
 		
 		const colorInterpolator = t => `rgba(255,100,50,${1-t})`;
+		this.Globe.current.controls().autoRotate = true;
 
 		this.Globe
 		.ringsData(gData_)
