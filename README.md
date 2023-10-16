@@ -2,12 +2,21 @@
 # Kp Index Prediction from DSCOVR Spectral Data
 
 ## Table of Contents
+- [Prizes/Recognition](#Prizes/Recognition)
 - [Problem Description](#problem-description)
 - [Machine Learning Solution](#machine-learning-solution)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+---
+## Prizes/Recognition
+
+Our project was put forward by the judges out of all other submissions to represent Hamilton at the Global Space Apps Competition.
+
+[Global Nominee Certificate](<NASA Space Apps Participant Certificate - Divij.pdf>)
+
 
 ---
 
